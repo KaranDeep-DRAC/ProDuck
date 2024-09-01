@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="../images/ProDuck.Jpg" type="image/jpg" />
+    <title>ProDuck.in</title>
+
+    <!-- Meta Code -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS Code -->
+
+    <style>
+      body {
+        background-color: gold;
+        margin: 0;
+        padding: 25px;
+
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+
+      /* Logo and Website Name */
+
+      div.logo {
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+      }
+      div.logo a {
+        text-decoration: none;
+        color: black;
+      }
+      div.logo img {
+        width: 50px;
+        margin: 3px 0 0 20px;
+        position: absolute;
+      }
+      div.logo h3 {
+        margin-left: 70px;
+        letter-spacing: 1px;
+      }
+
+      /* Categories and Tabs */
+
+      div.tabs {
+        margin: 55px;
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+      div.tabs a {
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: bold;
+        color: black;
+        padding: 15px;
+      }
+      div.tabs a:hover {
+        text-decoration: underline;
+      }
+
+      /* Website Keyline */
+
+      div.keyline {
+        text-align: center;
+        letter-spacing: 2px;
+        cursor: context-menu;
+        margin: 50px 0;
+      }
+
+      /* Container Card */
+
+      div.container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+
+      div.card {
+        width: 300px;
+        height: 400px;
+        background-color: white;
+        border-radius: 10px;
+        text-align: center;
+        cursor: pointer;
+      }
+      div.card:hover {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 4px 8px rgba(0, 0, 0, 0.3);
+      }
+      div.card img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+      }
+      div.card a {
+        text-decoration: none;
+        color: black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Logo and Website Name -->
+    <div class="logo">
+      <a href="" target="_self">
+        <img src="../images/ProDuck.png" alt="ProDuck" />
+        <h3>ProDuck.in</h3>
+      </a>
+    </div>
+
+    <!-- Categories and Tabs -->
+
+    <center>
+      <div class="tabs">
+        <a href="Smartphones.html" target="_blank">Smartphones</a>
+        <a href="Neckbands.html" target="_blank">Neckbands</a>
+        <a href="Headsets.html" target="_blank">Headsets</a>
+      </div>
+    </center>
+
+    <!-- Website Keyline -->
+
+    <div class="keyline">
+      <h4>Let's Make It Easy, How You Select Your Devices</h4>
+    </div>
+
+    <!-- Container Card -->
+
+    <div class="container">
+      <div class="card">
+        <a href="Smartphones.html" target="_blank">
+          <img src="../images/Smartphones.jpg" alt="Xiaomi 11T Pro 5G" />
+          <h5>Smartphones</h5>
+        </a>
+      </div>
+      <div class="card">
+        <a href="Neckbands.html" target="_blank">
+          <img src="../images/Neckbands.jpg" alt="Oneplus Bullets Z2" />
+          <h5>Neckbands</h5>
+        </a>
+      </div>
+      <div class="card">
+        <a href="Headsets.html" target="_blanks">
+          <img src="../images/Headsets.jpg" alt="Boat Rockerz 650" />
+          <h5>Headsets</h5>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>

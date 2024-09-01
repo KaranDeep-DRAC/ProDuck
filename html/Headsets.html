@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="../images/ProDuck.Jpg" type="image/jpg" />
+    <title>Headsets</title>
+
+    <!-- Meta Code -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS Code -->
+
+    <style>
+      body {
+        background-color: whitesmoke;
+        margin: 0;
+        padding: 25px;
+
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+
+      /* Logo and Website Name */
+
+      div.logo {
+        background-color: gold;
+        padding: 10px;
+        border-radius: 10px;
+      }
+      div.logo a {
+        text-decoration: none;
+        color: black;
+      }
+      div.logo img {
+        width: 50px;
+        margin: 3px 0 0 20px;
+        position: absolute;
+      }
+      div.logo h3 {
+        margin-left: 70px;
+        letter-spacing: 1px;
+      }
+
+      /* Categories and Tabs */
+
+      div.tabs {
+        margin: 55px;
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+      div.tabs a {
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: bold;
+        color: black;
+        padding: 15px;
+      }
+      div.tabs a:hover {
+        text-decoration: underline;
+      }
+
+      /* Website Keyline */
+
+      div.keyline {
+        text-align: center;
+        letter-spacing: 2px;
+        cursor: context-menu;
+        margin-top: 50px;
+      }
+
+      /* Container Card */
+
+      div.container {
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        cursor: context-menu;
+      }
+      div.card {
+        width: 250px;
+        height: 325px;
+        background-color: white;
+        border-radius: 10px;
+        text-align: center;
+        padding: 25px;
+        cursor: pointer;
+        transition: 0.5s ease;
+      }
+      div.card:hover {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 4px 8px rgba(0, 0, 0, 0.3);
+        transition: 0.5s ease;
+      }
+      div.card img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+      }
+
+      /* Product Detail */
+
+      div.detail {
+        width: 100%;
+        background-color: white;
+        border-radius: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        cursor: context-menu;
+        transition: 0.3s ease;
+      }
+      div.detail:hover {
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px 3px rgba(0, 0, 0, 0.3);
+        transition: 0.3s ease;
+      }
+
+      div.product {
+        text-align: center;
+        cursor: context-menu;
+        height: 300px;
+      }
+      div.product h4 {
+        background-color: whitesmoke;
+        padding: 10px;
+        width: max-content;
+        margin: 20px auto;
+        border-radius: 5px;
+      }
+      div.product table {
+        font-size: 13px;
+        text-align: left;
+        margin-left: 10%;
+      }
+      div.product td {
+        padding-left: 20px;
+      }
+      div.product th {
+        border-right: 2px solid black;
+        border-collapse: collapse;
+        padding: 10px;
+      }
+
+      #one {
+        width: 20%;
+        padding: 50px 0 0 25px;
+      }
+      #one img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+      }
+
+      #two {
+        background-color: white;
+        width: 45%;
+      }
+
+      #three {
+        background-color: white;
+        width: 25%;
+        border-radius: 0 10px 10px 0;
+      }
+      #three div {
+        border: 2px solid whitesmoke;
+        border-radius: 10px;
+        width: 200px;
+        height: 60px;
+        margin: 10px auto;
+        padding: 10px 30px;
+        transition: 0.3s ease;
+        cursor: pointer;
+      }
+      #three div:hover {
+        border: 2px solid gainsboro;
+        transition: 0.3s ease;
+      }
+      #three img {
+        width: 65px;
+        float: left;
+        height: auto;
+      }
+      #three p {
+        font-size: 13px;
+        font-weight: bold;
+        padding-top: 10px;
+      }
+
+      hr {
+        visibility: hidden;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Logo and Website Name -->
+
+    <div class="logo">
+      <a href="index.html" target="_blank">
+        <img src="../images/ProDuck.png" alt="ProDuck" />
+        <h3>ProDuck.in</h3>
+      </a>
+    </div>
+
+    <!-- Categories and Tabs -->
+
+    <center>
+      <div class="tabs">
+        <a href="Smartphones.html" target="_self">Smartphones</a>
+        <a href="Neckbands.html" target="_self">Neckbands</a>
+        <a href="" target="_self" style="text-decoration: underline"
+          >Headsets</a
+        >
+      </div>
+    </center>
+
+    <!-- Website Keyline Boat -->
+
+    <div class="keyline">
+      <h4>Boat Headsets</h4>
+    </div>
+
+    <!-- Container Card Boat -->
+
+    <div class="container">
+      <a href="#Boat 370">
+        <div class="card">
+          <img src="../images/boAt Rockerz 370.jpg" alt="boAt Rockerz 370" />
+          <h5>boAt Rockerz 370</h5>
+        </div>
+      </a>
+      <a href="#Boat 410">
+        <div class="card">
+          <img src="../images/boAt Rockerz 410.jpg" alt="boAt Rockerz 410" />
+          <h5>boAt Rockerz 410</h5>
+        </div>
+      </a>
+      <a href="#Boat 510">
+        <div class="card">
+          <img src="../images/boAt Rockerz 510.jpg" alt="boAt Rockerz 510" />
+          <h5>boAt Rockerz 510</h5>
+        </div>
+      </a>
+    </div>
+
+    <!-- Website Keyline -->
+
+    <div class="keyline">
+      <h4>Xiaomi Headsets</h4>
+    </div>
+
+    <!-- Container Card Realme -->
+
+    <div class="container">
+      <a href="#MI">
+        <div class="card">
+          <img
+            src="../images/Mi Super Bass Wireless Headphones.jpg"
+            alt="Mi Super Bass Wireless Headphones"
+          />
+          <h5>Mi Super Bass Wireless Headphones</h5>
+        </div>
+      </a>
+    </div>
+
+    <!-- Website Keyline Boat -->
+
+    <div class="keyline">
+      <h4>Boat Headsets</h4>
+    </div>
+
+    <!-- Product Detail Boat -->
+
+    <hr id="Boat 370" />
+    <div class="detail">
+      <div class="product" id="one">
+        <img src="../images/boAt Rockerz 370.jpg" alt="boAt Rockerz 370" />
+      </div>
+
+      <div class="product" id="two">
+        <h4>boAt Rockerz 370</h4>
+        <center>
+          <table>
+            <tr>
+              <th>Battery Backup</th>
+              <td>8 Hours Playback</td>
+            </tr>
+            <tr>
+              <th>Charging</th>
+              <td>3 hr for full charge</td>
+            </tr>
+            <tr>
+              <th>Water Resistant</th>
+              <td>No</td>
+            </tr>
+            <tr>
+              <th>Driver</th>
+              <td>40 mm</td>
+            </tr>
+            <tr>
+              <th>Connectivity</th>
+              <td>5.0 Bluetooth Version</td>
+            </tr>
+          </table>
+        </center>
+      </div>
+
+      <div class="product" id="three">
+        <div>
+          <a
+            href="https://www.amazon.in/Rockerz-370-Headphone-Lightweight-Gregarious/dp/B0856J7XF8?th=1"
+            target="_blank"
+          >
+            <img src="../images/Amazon.jpg" alt="Amazon" />
+            <p>₹1,199</p>
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://www.flipkart.com/boat-rockerz-370-bluetooth-headset/p/itmacb88c86754ff"
+            target="_blank"
+          >
+            <img src="../images/Flipkart.jpg" alt="Flipkart" />
+            <p style="color: grey">Out of Stock</p>
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://www.boat-lifestyle.com/products/rockerz-370"
+            target="_blank"
+          >
+            <img src="../images/boAt Store.jpg" alt="boAt Store" />
+            <p>₹1,199</p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <hr id="Boat 410" />
+    <div class="detail">
+      <div class="product" id="one">
+        <img src="../images/boAt Rockerz 410.jpg" alt="boAt Rockerz 410" />
+      </div>
+
+      <div class="product" id="two">
+        <h4>boAt Rockerz 410</h4>
+        <center>
+          <table>
+            <tr>
+              <th>Battery Backup</th>
+              <td>8 Hours Playback</td>
+            </tr>
+            <tr>
+              <th>Charging</th>
+              <td>3 hr for full charge</td>
+            </tr>
+            <tr>
+              <th>Water Resistant</th>
+              <td>No</td>
+            </tr>
+            <tr>
+              <th>Driver</th>
+              <td>40 mm</td>
+            </tr>
+            <tr>
+              <th>Connectivity</th>
+              <td>5.0 Bluetooth Version</td>
+            </tr>
+          </table>
+        </center>
+      </div>
+
+      <div class="product" id="three">
+        <div>
+          <a href="#boAt 410" target="_self">
+            <img src="../images/Amazon.jpg" alt="Amazon" />
+            <p style="color: grey">Not Available</p>
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://www.flipkart.com/boat-rockerz-410-bluetooth-wired-headset/p/itmb4495e75e0af5"
+            target="_blank"
+          >
+            <img src="../images/Flipkart.jpg" alt="Flipkart" />
+            <p style="color: grey">Out of Stock</p>
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://www.boat-lifestyle.com/products/rockerz-410"
+            target="_blank"
+          >
+            <img src="../images/boAt Store.jpg" alt="boAt Store" />
+            <p>₹1,599</p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <hr id="Boat 510" />
+    <div class="detail">
+      <div class="product" id="one">
+        <img src="../images/boAt Rockerz 510.jpg" alt="boAt Rockerz 510" />
+      </div>
+
+      <div class="product" id="two">
+        <h4>boAt Rockerz 510</h4>
+        <center>
+          <table>
+            <tr>
+              <th>Battery Backup</th>
+              <td>20 Hours Playback</td>
+            </tr>
+            <tr>
+              <th>Charging</th>
+              <td>3 hr for full charge</td>
+            </tr>
+            <tr>
+              <th>Water Resistant</th>
+              <td>No</td>
+            </tr>
+            <tr>
+              <th>Driver</th>
+              <td>50 mm</td>
+            </tr>
+            <tr>
+              <th>Connectivity</th>
+              <td>4.1 Bluetooth Version</td>
+            </tr>
+          </table>
+        </center>
+      </div>
+
+      <div class="product" id="three">
+        <div>
+          <a
+            href="https://www.amazon.in/Rockerz-510-Wireless-Bluetooth-Headphones/dp/B06Y5LK5QJ"
+            target="_blank"
+          >
+            <img src="../images/Amazon.jpg" alt="Amazon" />
+            <p style="color: grey">Out of Stock</p>
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://www.flipkart.com/boat-rockerz-510-super-extra-bass-bluetooth-headset/p/itm80f91d1c64beb"
+            target="_blank"
+          >
+            <img src="../images/Flipkart.jpg" alt="Flipkart" />
+            <p>₹1,664</p>
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://www.boat-lifestyle.com/products/rockerz-510"
+            target="_blank"
+          >
+            <img src="../images/boAt Store.jpg" alt="boAt Store" />
+            <p>₹1,599</p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Website Keyline MI -->
+
+    <div class="keyline">
+      <h4>Xiaomi Headsets</h4>
+    </div>
+
+    <!-- Product Detail MI -->
+
+    <hr id="MI" />
+    <div class="detail">
+      <div class="product" id="one">
+        <img
+          src="../images/Mi Super Bass Wireless Headphones.jpg"
+          alt="Mi Super Bass Wireless Headphones"
+        />
+      </div>
+
+      <div class="product" id="two">
+        <h4>Mi Super Bass Wireless Headphones</h4>
+        <center>
+          <table>
+            <tr>
+              <th>Battery Backup</th>
+              <td>20 Hours Playback</td>
+            </tr>
+            <tr>
+              <th>Charging</th>
+              <td>2 hr for full charge</td>
+            </tr>
+            <tr>
+              <th>Water Resistant</th>
+              <td>No</td>
+            </tr>
+            <tr>
+              <th>Driver</th>
+              <td>40 mm</td>
+            </tr>
+            <tr>
+              <th>Connectivity</th>
+              <td>5.0 Bluetooth Version</td>
+            </tr>
+          </table>
+        </center>
+      </div>
+
+      <div class="product" id="three">
+        <div>
+          <a
+            href="https://www.amazon.in/Mi-Wireless-Headphones-Powerful-Bluetooth/dp/B07TF2R9KW"
+            target="_blank"
+          >
+            <img src="../images/Amazon.jpg" alt="Amazon" />
+            <p style="color: grey">Out of Stock</p>
+          </a>
+        </div>
+        <div>
+          <a href="#MI" target="_self">
+            <img src="../images/Flipkart.jpg" alt="Flipkart" />
+            <p style="color: grey">Not Available</p>
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://store.mi.com/in/item/3192800005?skupanel=1"
+            target="_blank"
+          >
+            <img src="../images/MI Store.jpg" alt="MI Store" />
+            <p>₹1,299</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

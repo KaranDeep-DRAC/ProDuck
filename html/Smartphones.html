@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="../images/ProDuck.Jpg" type="image/jpg" />
+    <title>Smartphones</title>
+
+    <!-- Meta Code -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS Code -->
+
+    <style>
+      body {
+        background-color: whitesmoke;
+        margin: 0;
+        padding: 25px;
+
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+
+      /* Logo and Website Name */
+
+      div.logo {
+        background-color: gold;
+        padding: 10px;
+        border-radius: 10px;
+      }
+      div.logo a {
+        text-decoration: none;
+        color: black;
+      }
+      div.logo img {
+        width: 50px;
+        margin: 3px 0 0 20px;
+        position: absolute;
+      }
+      div.logo h3 {
+        margin-left: 70px;
+        letter-spacing: 1px;
+      }
+
+      /* Categories and Tabs */
+
+      div.tabs {
+        margin: 55px;
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+      div.tabs a {
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: bold;
+        color: black;
+        padding: 15px;
+      }
+      div.tabs a:hover {
+        text-decoration: underline;
+      }
+
+      /* Website Keyline */
+
+      div.keyline {
+        text-align: center;
+        letter-spacing: 2px;
+        cursor: context-menu;
+        margin-top: 50px;
+      }
+
+      /* Container Card */
+
+      div.container {
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        cursor: context-menu;
+      }
+      div.card {
+        width: 300px;
+        height: 400px;
+        background-color: white;
+        border-radius: 10px;
+        text-align: center;
+        cursor: pointer;
+        transition: 0.5s ease;
+      }
+      div.card:hover {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 4px 8px rgba(0, 0, 0, 0.3);
+        transition: 0.5s ease;
+      }
+      div.card img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+      }
+
+      /* Product Detail */
+
+      div.detail {
+        width: 100%;
+        background-color: white;
+        border-radius: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        cursor: context-menu;
+        transition: 0.3s ease;
+      }
+      div.detail:hover {
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px 3px rgba(0, 0, 0, 0.3);
+        transition: 0.3s ease;
+      }
+
+      div.product {
+        text-align: center;
+        cursor: context-menu;
+        height: 300px;
+      }
+      div.product h4 {
+        background-color: whitesmoke;
+        padding: 10px;
+        width: max-content;
+        margin: 20px auto;
+        border-radius: 5px;
+      }
+      div.product table {
+        font-size: 13px;
+        text-align: left;
+        margin-left: 10%;
+      }
+      div.product td {
+        padding-left: 20px;
+      }
+      div.product th {
+        border-right: 2px solid black;
+        border-collapse: collapse;
+        padding: 10px;
+      }
+
+      #one {
+        width: 25%;
+      }
+      #one img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+      }
+
+      #two {
+        background-color: white;
+        width: 50%;
+      }
+
+      #three {
+        background-color: white;
+        width: 25%;
+        border-radius: 0 10px 10px 0;
+      }
+      #three div {
+        border: 2px solid whitesmoke;
+        border-radius: 10px;
+        width: 200px;
+        height: 60px;
+        margin: 10px auto;
+        padding: 10px 30px;
+        transition: 0.3s ease;
+        cursor: pointer;
+      }
+      #three div:hover {
+        border: 2px solid gainsboro;
+        transition: 0.3s ease;
+      }
+      #three img {
+        width: 65px;
+        float: left;
+        height: auto;
+      }
+      #three p {
+        font-size: 13px;
+        font-weight: bold;
+        padding-top: 10px;
+      }
+
+      hr {
+        visibility: hidden;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Logo and Website Name -->
+
+    <div class="logo">
+      <a href="index.html" target="_blank">
+        <img src="ProDuck.png" alt="ProDuck" />
+        <h3>ProDuck.in</h3>
+      </a>
+    </div>
+
+    <!-- Categories and Tabs -->
+
+    <center>
+      <div class="tabs">
+        <a href="" target="_self" style="text-decoration: underline"
+          >Smartphones</a
+        >
+        <a href="Neckbands.html" target="_self">Neckbands</a>
+        <a href="Headsets.html" target="_self">Headsets</a>
+      </div>
+    </center>
+
+    <!-- Website Keyline Xiaomi -->
+
+    <div class="keyline">
+      <h4>Xiaomi Smartphones</h4>
+    </div>
+
+    <!-- Container Card Xiaomi -->
+
+    <div class="container">
+      <a href="#pro+ 5G">
+        <div class="card">
+          <img
+            src="../images/Redmi Note 12 Pro+ 5G.jpg"
+            alt="Redmi Note 12 Pro+ 5G"
+          />
+          <h5>Redmi Note 12 Pro+ 5G</h5>
+        </div>
+      </a>
+      <a href="#pro 5G">
+        <div class="card">
+          <img
+            src="../images/Redmi Note 12 Pro 5G.jpg"
+            alt="Redmi Note 12 Pro 5G"
+          />
+          <h5>Redmi Note 12 Pro 5G</h5>
+        </div>
+      </a>
+      <a href="#5G">
+        <div class="card">
+          <img src="../images/Redmi Note 12 5G.jpg" alt="Redmi Note 12 5G" />
+          <h5>Redmi Note 12 5G</h5>
+        </div>
+      </a>
+    </div>
+
+    <!-- Website Keyline Samsung -->
+
+    <div class="keyline">
+      <h4>Samsung Smartphones</h4>
+    </div>
+
+    <!-- Container Card Samsung -->
+
+    <div class="container">
+      <a href="#S23 Ultra 5G">
+        <div class="card">
+          <img
+            src="../images/Galaxy S23 Ultra 5G.jpg"
+            alt="Galaxy S23 Ultra 5G"
+          />
+          <h5>Galaxy S23 Ultra 5G</h5>
+        </div>
+      </a>
+      <a href="#S23+ 5G">
+        <div class="card">
+          <img src="../images/Galaxy S23+ 5G.jpg" alt="Galaxy S23+ 5G" />
+          <h5>Galaxy S23+ 5G</h5>
+        </div>
+      </a>
+      <a href="#S23 5G">
+        <div class="card">
+          <img src="../images/Galaxy S23 5G.jpg" alt="Galaxy S23 5G" />
+          <h5>Galaxy S23 5G</h5>
+        </div>
+      </a>
+    </div>
+
+    <!-- Website Keyline -->
+
+    <div class="keyline">
+      <h4>Product Details</h4>
+    </div>
+
+    <!-- Product Detail Xiaomi -->
+
+    <hr id="pro+ 5G" />
+    <div class="detail">
+      <div class="product" id="one">
+        <img
+          src="../images/Redmi Note 12 Pro+ 5G.jpg"
+          alt="Redmi Note 12 Pro+ 5G"
+        />
+      </div>
+
+      <div class="product" id="two">
+        <h4>Redmi Note 12 Pro+ 5G</h4>
+        <center>
+          <table>
+            <tr>
+              <th>Display</th>
+              <td>6.67" FHD+ Flow AMOLED</td>
+            </tr>
+            <tr>
+              <th>Processor</th>
+              <td>MediaTek Dimensity 1080</td>
+            </tr>
+            <tr>
+              <th>Camera</th>
+              <td>200MP+8MP+2MP Rear, 16MP Front</td>
+            </tr>
+            <tr>
+              <th>Battery</th>
+              <td>5000mAh battery (120w Charger)</td>
+            </tr>
+            <tr>
+              <th>RAM & Storage</th>
+              <td>8GB+256GB</td>
+            </tr>
+          </table>
+        </center>
+      </div>
+
+      <div class="product" id="three">
+        <div id="link">
+          <a
+            href="https://www.amazon.in/Redmi-Obsidian-Black-256GB-Storage/dp/B0BX4GMDTG/ref=d_pd_sbs_sccl_4_4/262-0600225-9784347?pd_rd_w=HcIUe&content-id=amzn1.sym.a3e899a7-ff40-499c-affa-381446b4b004&pf_rd_p=a3e899a7-ff40-499c-affa-381446b4b004&pf_rd_r=JV52AWRWGCV4J5WVYTKE&pd_rd_wg=zjgUT&pd_rd_r=de8dfb5c-83d2-4c9f-bf91-df6a80f71c82&pd_rd_i=B0BX4GMDTG&psc=1"
+            target="_blank"
+          >
+            <img src="../images/Amazon.jpg" alt="Amazon" />
+            <p>₹30,999</p>
+          </a>
+        </div>
+        <div id="link">
+          <a
+            href="https://www.flipkart.com/redmi-note-12-pro-5g-iceberg-blue-256-gb/p/itmc41b2b02af0da"
+            target="_blank"
+          >
+            <img src="../images/Flipkart.jpg" alt="Flipkart" />
+            <p>₹29,999</p>
+          </a>
+        </div>
+        <div id="link">
+          <a
+            href="https://www.mi.com/in/product/redmi-note-12-pro-plus-5g/?skupanel=1&gid=4224100105"
+            target="_blank"
+          >
+            <img src="../images/MI Store.jpg" alt="MI Store" />
+            <p>₹29,999</p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <hr id="pro 5G" />
+    <div class="detail">
+      <div class="product" id="one">
+        <img
+          src="../images/Redmi Note 12 Pro 5G.jpg"
+          alt="Redmi Note 12 Pro 5G"
+        />
+      </div>
+
+      <div class="product" id="two">
+        <h4>Redmi Note 12 Pro 5G</h4>
+        <center>
+          <table>
+            <tr>
+              <th>Display</th>
+              <td>6.67" FHD+ Flow AMOLED</td>
+            </tr>
+            <tr>
+              <th>Processor</th>
+              <td>MediaTek Dimensity 1080</td>
+            </tr>
+            <tr>
+              <th>Camera</th>
+              <td>50MP+8MP+2MP Rear, 16MP Front</td>
+            </tr>
+            <tr>
+              <th>Battery</th>
+              <td>5000mAh battery (67w Charger)</td>
+            </tr>
+            <tr>
+              <th>RAM & Storage</th>
+              <td>8GB+128GB</td>
+            </tr>
+          </table>
+        </center>
+      </div>
+
+      <div class="product" id="three">
+        <div id="link">
+          <a
+            href="https://www.amazon.in/Redmi-Note-Black-128GB-Storage/dp/B0BXB1ZSXF/ref=psdc_1805560031_t2_B0BS3RBVSL"
+            target="_blank"
+          >
+            <img src="../images/Amazon.jpg" alt="Amazon" />
+            <p>₹27,175</p>
+          </a>
+        </div>
+        <div id="link">
+          <a
+            href="https://www.flipkart.com/redmi-note-12-pro-5g-onyx-black-128-gb/p/itmf043b12dd895e?pid=MOBGH2UVXTFJMM7G&lid=LSTMOBGH2UVXTFJMM7GOXWIBW&marketplace=FLIPKART&sattr[]=color&sattr[]=storage&sattr[]=ram&st=ram"
+            target="_blank"
+          >
+            <img src="../images/Flipkart.jpg" alt="Flipkart" />
+            <p>₹26,999</p>
+          </a>
+        </div>
+        <div id="link">
+          <a
+            href="https://www.mi.com/in/product/redmi-note-12-pro-5g/?skupanel=1&gid=4224100109"
+            target="_blank"
+          >
+            <img src="../images/MI Store.jpg" alt="MI Store" />
+            <p>₹26,999</p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <hr id="5G" />
+    <div class="detail">
+      <div class="product" id="one">
+        <img src="../images/Redmi Note 12 5G.jpg" alt="Redmi Note 12 5G" />
+      </div>
+
+      <div class="product" id="two">
+        <h4>Redmi Note 12 5G</h4>
+        <center>
+          <table>
+            <tr>
+              <th>Display</th>
+              <td>6.67" AMOLED DotDisplay</td>
+            </tr>
+            <tr>
+              <th>Processor</th>
+              <td>Snapdragon® 4 Gen 1</td>
+            </tr>
+            <tr>
+              <th>Camera</th>
+              <td>48MP+8MP+2MP Rear, 13MP Front</td>
+            </tr>
+            <tr>
+              <th>Battery</th>
+              <td>5000mAh battery (33w Charger)</td>
+            </tr>
+            <tr>
+              <th>RAM & Storage</th>
+              <td>6GB+128GB</td>
+            </tr>
+          </table>
+        </center>
+      </div>
+
+      <div class="product" id="three">
+        <div id="link">
+          <a
+            href="https://www.amazon.in/Redmi-Mystique-AMOLED-Snapdragon%C2%AE-Triple/dp/B0BQ3PYMCZ/ref=d_pd_sbs_sccl_5_6/262-0600225-9784347?pd_rd_w=tKioq&content-id=amzn1.sym.a3e899a7-ff40-499c-affa-381446b4b004&pf_rd_p=a3e899a7-ff40-499c-affa-381446b4b004&pf_rd_r=AZR865XDJYMS5W9RVBXJ&pd_rd_wg=1A4Nr&pd_rd_r=dadd3a8d-1443-45a6-8b8b-3983b0cc2e42&pd_rd_i=B0BQ3PYMCZ&th=1"
+            target="_blank"
+          >
+            <img src="../images/Amazon.jpg" alt="Amazon" />
+            <p>₹19,999</p>
+          </a>
+        </div>
+        <div id="link">
+          <a
+            href="https://www.flipkart.com/redmi-note-12-5g-frosted-green-128-gb/p/itm5548445f6ae70?pid=MOBGHNFJPXZQED9Q&lid=LSTMOBGHNFJPXZQED9QYDAW7Y&marketplace=FLIPKART&q=REDMI+Note+12+5g&store=tyy%2F4io&srno=s_1_1&otracker=search&otracker1=search&fm=organic&iid=6a9a4002-1866-48bf-b8f6-0badef01cf9c.MOBGHNFJPXZQED9Q.SEARCH&ppt=pp&ppn=pp&ssid=800l7nbdwg0000001682970417726&qH=126361d63e1dd461"
+            target="_blank"
+          >
+            <img src="../images/Flipkart.jpg" alt="Flipkart" />
+            <p>₹19,489</p>
+          </a>
+        </div>
+        <div id="link">
+          <a
+            href="https://www.mi.com/in/product/redmi-note-12-5g/?skupanel=1&gid=4224100097"
+            target="_blank"
+          >
+            <img src="../images/MI Store.jpg" alt="MI Store" />
+            <p>₹19,999</p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product Detail Samsung -->
+
+    <hr id="S23 Ultra 5G" />
+    <div class="detail">
+      <div class="product" id="one">
+        <img
+          src="../images/Galaxy S23 Ultra 5G.jpg"
+          alt="Galaxy S23 Ultra 5G"
+        />
+      </div>
+
+      <div class="../images/product" id="two">
+        <h4>Galaxy S23 Ultra 5G</h4>
+        <center>
+          <table>
+            <tr>
+              <th>Display</th>
+              <td>6.8" QHD+ Dynamic AMOLED</td>
+            </tr>
+            <tr>
+              <th>Processor</th>
+              <td>Snapdragon® 8 Gen 2</td>
+            </tr>
+            <tr>
+              <th>Camera</th>
+              <td>200MP+10MP+12MP+10MP Rear, 12MP Front</td>
+            </tr>
+            <tr>
+              <th>Battery</th>
+              <td>5000mAh battery (Charger)</td>
+            </tr>
+            <tr>
+              <th>RAM & Storage</th>
+              <td>12GB+256GB</td>
+            </tr>
+          </table>
+        </center>
+      </div>
+
+      <div class="product" id="three">
+        <div id="link">
+          <a
+            href="https://www.amazon.in/Samsung-Galaxy-Ultra-Phantom-Storage/dp/B0BT9FDZ8N"
+            target="_blank"
+          >
+            <img src="../images/Amazon.jpg" alt="Amazon" />
+            <p>₹1,24,999</p>
+          </a>
+        </div>
+        <div id="link">
+          <a
+            href="https://www.flipkart.com/samsung-galaxy-s23-ultra-5g-green-256-gb/p/itm77dc35f7779a4"
+            target="_blank"
+          >
+            <img src="../images/Flipkart.jpg" alt="Flipkart" />
+            <p>₹1,24,999</p>
+          </a>
+        </div>
+        <div id="link">
+          <a
+            href="https://www.samsung.com/in/smartphones/galaxy-s23-ultra/buy/"
+            target="_blank"
+          >
+            <img src="../images/Galaxy Store.jpg" alt="Galaxy Store" />
+            <p>₹1,24,999</p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <hr id="S23+ 5G" />
+    <div class="detail">
+      <div class="product" id="one">
+        <img src="../images/Galaxy S23+ 5G.jpg" alt="Galaxy S23+ 5G" />
+      </div>
+
+      <div class="product" id="two">
+        <h4>Galaxy S23+ 5G</h4>
+        <center>
+          <table>
+            <tr>
+              <th>Display</th>
+              <td>6.6" FHD+ Dynamic AMOLED</td>
+            </tr>
+            <tr>
+              <th>Processor</th>
+              <td>Snapdragon® 8 Gen 2</td>
+            </tr>
+            <tr>
+              <th>Camera</th>
+              <td>50MP+12MP+10MP Rear, 12MP Front</td>
+            </tr>
+            <tr>
+              <th>Battery</th>
+              <td>4700mAh battery (Charger)</td>
+            </tr>
+            <tr>
+              <th>RAM & Storage</th>
+              <td>8GB+256GB</td>
+            </tr>
+          </table>
+        </center>
+      </div>
+
+      <div class="product" id="three">
+        <div id="link">
+          <a
+            href="https://www.amazon.in/Samsung-Galaxy-Phantom-Black-Storage/dp/B0BT9DV9Q4/ref=sr_1_2?crid=2FVJRDNO3UC17&keywords=s23+plus&qid=1683098704&s=electronics&sprefix=s23+plus%2Celectronics%2C337&sr=1-2"
+            target="_blank"
+          >
+            <img src="../images/Amazon.jpg" alt="Amazon" />
+            <p>₹94,999</p>
+          </a>
+        </div>
+        <div id="link">
+          <a
+            href="https://www.flipkart.com/samsung-galaxy-s23-plus-5g-phantom-black-256-gb/p/itmb4b052604b50d?pid=MOBGMFFXZ4ETJ2YY&lid=LSTMOBGMFFXZ4ETJ2YYN1QNLW&marketplace=FLIPKART&sattr[]=color&sattr[]=storage&st=storage"
+            target="_blank"
+          >
+            <img src="../images/Flipkart.jpg" alt="Flipkart" />
+            <p>₹94,999</p>
+          </a>
+        </div>
+        <div id="link">
+          <a
+            href="https://www.samsung.com/in/smartphones/galaxy-s23/buy/"
+            target="_blank"
+          >
+            <img src="../images/Galaxy Store.jpg" alt="Galaxy Store" />
+            <p>₹94,999</p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <hr id="S23 5G" />
+    <div class="detail">
+      <div class="product" id="one">
+        <img src="../images/Galaxy S23 5G.jpg" alt="Galaxy S23 5G" />
+      </div>
+
+      <div class="product" id="two">
+        <h4>Galaxy S23 5G</h4>
+        <center>
+          <table>
+            <tr>
+              <th>Display</th>
+              <td>6.1" FHD+ Dynamic AMOLED</td>
+            </tr>
+            <tr>
+              <th>Processor</th>
+              <td>Snapdragon® 8 Gen 2</td>
+            </tr>
+            <tr>
+              <th>Camera</th>
+              <td>50MP+12MP+10MP Rear, 12MP Front</td>
+            </tr>
+            <tr>
+              <th>Battery</th>
+              <td>3900mAh battery (Charger)</td>
+            </tr>
+            <tr>
+              <th>RAM & Storage</th>
+              <td>8GB+128GB</td>
+            </tr>
+          </table>
+        </center>
+      </div>
+
+      <div class="product" id="three">
+        <div id="link">
+          <a
+            href="https://www.amazon.in/dp/B0BY8PYVS6/ref=twister_B0BZSS4YMR?_encoding=UTF8&psc=1"
+            target="_blank"
+          >
+            <img src="../images/Amazon.jpg" alt="Amazon" />
+            <p>₹74,998</p>
+          </a>
+        </div>
+        <div id="link">
+          <a
+            href="https://www.flipkart.com/samsung-galaxy-s23-5g-green-128-gb/p/itm7cdd081996dc8?pid=MOBGNPGYWGZAUZGK&lid=LSTMOBGNPGYWGZAUZGKLQSOT0&marketplace=FLIPKART&sattr[]=color&sattr[]=storage&st=storage"
+            target="_blank"
+          >
+            <img src="../images/Flipkart.jpg" alt="Flipkart" />
+            <p>₹74,999</p>
+          </a>
+        </div>
+        <div id="link">
+          <a
+            href="https://www.samsung.com/in/smartphones/galaxy-s23/buy/"
+            target="_blank"
+          >
+            <img src="../images/Galaxy Store.jpg" alt="Galaxy Store" />
+            <p>₹74,999</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
